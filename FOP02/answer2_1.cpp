@@ -15,8 +15,8 @@ int main (){
   cin>>width;
     
   //Rectangle Formula
-  area = length*width
-  perimeter = 2*(length+width) 
+  area = length*width;
+  perimeter = 2*(length+width);
 
   //Compute the area and perimeter
   cout<<"The area of the rectangle is ";
