@@ -12,8 +12,8 @@ int main (){
   cin>>radius;
 
   //Formula of sphere
-  volume = 4/3*3.14* pow(radius,3);
-  surface = 4*3.14*pow(radius,2);
+  volume = 4/3*M_PI* pow(radius,3);
+  surface = 4*M_PI*pow(radius,2);
 
   //Compute volume and surface of sphere
   cout<<"The Sphere's volume is ";
