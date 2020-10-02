@@ -7,7 +7,7 @@ int main (){
     //Input number of the month and the year
     cout<<"The the number of the month you would like to know to know if it's the month of leap year :";
     cin>>month;
-    cout<<"Also input the year : ";
+    cout<<"\nAlso input the year : ";
     cin>>year;
 
     //Check when is the month of leap year
@@ -19,7 +19,7 @@ int main (){
 
         case 2 :
         //Condition if this is leap year or not
-            if ((year%4==0)&&(year%100 !=0) || (year%400==0)){
+            if (((year%4==0) && (year%100 !=0)) || (year%400==0)){
                 cout<<"\nFebruary"<<year<<", it has 29 days";
             }
             else{
@@ -67,4 +67,5 @@ int main (){
             cout<<"\n December"<<year<<", it has 31 days";
             break;
     }
-    
+    return 0;
+}
