@@ -17,10 +17,10 @@ int main ()
     BMI = weight/pow(height,2);
 
     //Grade od the score
-    if (BMI==18.5){
+    if (BMI<=18.5){
         cout<<"Your are Underweight";
     }
-    if ((BMI==18.5)&&(BMI<25)){
+    if ((BMI>18.5)&&(BMI<25)){
         cout<<"Your are Normal";
     }
     if ((BMI==25)&&(BMI<30)){

@@ -7,7 +7,7 @@ int main (){
     //Input number of the month and the year
     cout<<"The the number of the month you would like to know to know if it's the month of leap year :";
     cin>>month;
-    cout<<"\nAlso input the year : ";
+    cout<<"Also input the year : ";
     cin>>year;
 
     //Check when is the month of leap year
