@@ -16,19 +16,16 @@ int main ()
     cout<<"4.Keluar\n";
     cout<<"^^^^^Choose your desicion^^^^^\n";
     cin>>pilihan;
-    system ("cls");
+
 
     switch (pilihan){
         case 1:
             do{
-                cout<<"Saldo anda sebesar "<<balance<<endl;
-                cout<<"Anda ingin kembali ke menu (y/t)";
-                cin>>status;} while (status==t);
-                system ("cls");
+                cout<<"Saldo anda sebesar "<<balance<<endl;}
+                while (status);
                 goto menu;
-            break
-            }
-
+            
+          break;
         case 2:
             do{
                 cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;
@@ -37,12 +34,10 @@ int main ()
                 
                 balance = balance + n_deposite;
 
-                cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;
-                cout<<"Ingi kembali ke menu (y/t)";
-                cin>>status;} while (status==t);
-                system ("cls");
+                cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;}
+                while (status);
                 goto menu;
-            }
+        break;
         
         case 3:
             do{
@@ -52,16 +47,13 @@ int main ()
                 
                 balance = balance + n_withdraw;
 
-                cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;
-                cout<<"Ingi kembali ke menu (y/t)";
-                cin>>status;} while (status==t);
-                system ("cls");
+                cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;}
+                while (status);
                 goto menu;
-            }
+        break;
         
         case 4:
             cout<<"Terima kasih telah datang :)\n";
-            system("cls");
             return 0;
     }
 
