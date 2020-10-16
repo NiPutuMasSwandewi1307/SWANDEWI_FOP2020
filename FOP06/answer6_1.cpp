@@ -1,16 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main {
+int main(){
     int i;
-    int i!=0
-
-    while (i<100){
+    for (i=0; i<100; i+=3){
         if (i%5==0){
             continue;
-        }
+    }
     cout<<i<<endl;
-    i+=3
     }
     return 0;
 }
