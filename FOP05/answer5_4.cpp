@@ -16,6 +16,7 @@ int main ()
     cout<<"4.Keluar\n";
     cout<<"^^^^^Choose your desicion^^^^^\n";
     cin>>pilihan;
+    system("cls");
 
 
     switch (pilihan){
@@ -36,6 +37,7 @@ int main ()
 
                 cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;}
                 while (status);
+                system ("cls");
                 goto menu;
         break;
         
@@ -49,6 +51,7 @@ int main ()
 
                 cout<<"Saldo anda sekarang berjumlah "<<balance<<endl;}
                 while (status);
+                system ("cls");
                 goto menu;
         break;
         
